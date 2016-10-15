@@ -33,7 +33,6 @@ static NSString *JWDSpeechTableViewCellID = @"JWDSpeechTableViewCellID";
     
     label.text = @"Hello World,\n你好！,\nHello AV Foundation. \nHow are you?,\n很高兴见到你！,\nI'm well! Thanks for asking.\n么么哒 \nAre you excited about the book? \n哎呦不错哦 \nVery! I have always felt so misunderstood.";
     
-
     self.speechController = [JWDSpeechViewController speechController];
     self.speechController.synthesizer.delegate = self;
     self.speechStrings = [NSMutableArray array];
